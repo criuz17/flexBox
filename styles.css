@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    height: 60px;
+    
+}
+
+.nav p, nav h1, nav li, nav a{
+    color: white;
+    cursor: pointer;
+}
+
+.link-logo{
+    display: flex;
+    align-items: center;
+}
+
+.links{
+    margin-left: 200px;
+}
+
+.links ul{
+    list-style-type: none;
+    display: flex;
+
+}
+
+.links ul li{
+    margin-right: 60px;
+}
+
+.buttons{
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.buttons button{
+    margin-left: 30px;
+    background-color: transparent;
+    border-color: white;
+    border-width: 2px;
+    height: 40px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: all.0.3s
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+.head{
+    padding-left:  10%;
+    padding-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-items: center;
+    padding-top: 70px;
+    height: 70px;
+}
+.head image{
+    height: 80%;
+    width: 50%;
+    border-radius: 30px;
+    cursor: pointer;
+    padding-right: 50%;
+}
+.learn{
+    background-color: black;
+    height: 40px;
+    color: white;
+    padding: 10px 20px;
+     border-radius: 10px;
+    cursor: pointer;
+
+
+}
+
+
+
